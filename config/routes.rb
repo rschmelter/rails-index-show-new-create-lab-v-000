@@ -1,4 +1,4 @@
-Rails.application.routes.draw do
+
 
   Rails.application.routes.draw do
     resources :coupons, only: [:index, :show, :new, :create]
@@ -57,4 +57,4 @@ Rails.application.routes.draw do
   #     # (app/controllers/admin/products_controller.rb)
   #     resources :products
   #   end
-end
+
