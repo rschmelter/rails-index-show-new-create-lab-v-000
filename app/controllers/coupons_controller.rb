@@ -4,4 +4,7 @@ class CouponsController < ApplicationController
   end
 
 
+def new 
+
+end
 end
